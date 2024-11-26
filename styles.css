@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body {  
+    font-family: Arial, sans-serif; /* Optional: a default font for the body */  
+}  
+
+table {  
+    width: 100%; /* Full width of the container */  
+    border-collapse: collapse; /* Collapse borders for better appearance */  
+}  
+
+th, td {  
+    border: 1px solid #ccc; /* Border for table cells */  
+    border-radius: 5px; /* Rounded corners */  
+    padding: 0.5rem; /* Padding inside the cells */  
+    text-align: left; /* Align text to the left */  
+}  
+
+tbody tr:nth-child(odd) {  
+    background-color: #f2f2f2; /* Background color for odd rows */  
+}  
+
+tbody tr:nth-child(even) {  
+    background-color: #ffffff; /* Background color for even rows */  
+}
